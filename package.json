@@ -9,12 +9,18 @@
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.14",
     "redux": "^3.7.2",
-    "redux-promise": "^0.5.3"
+    "redux-thunk": "^2.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "esw webpack.config.* src tools --color"
+  },
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-plugin-react": "^7.4.0",
+    "eslint-watch": "^3.1.3"
   }
 }

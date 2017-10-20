@@ -1,8 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import SignUpFormContainer from '../containers/SignUpFormContainer';
 
-export default () => (
+const SignUpPage =  () => (
   <div>
     <SignUpFormContainer />
   </div>
 );
+
+export default SignUpPage
